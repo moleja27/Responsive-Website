@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #FFFFFF;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container .header .logo{
+    font-size: 20px;
+    font-family: "Source Sans 3", sans-serif;
+    width: 90px;
+    height: 36px;
+    background-color: pink;
+    color: #242635;
+    font-weight: bold;
+    margin: 5px;
+   
+}
+
+
+header{
+    background-color: aquamarine;
+    width: 60%;
+    height: 70px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav{
+    font-size: 20px;
+    font-family: "Source Sans 3", sans-serif;
+    width: 250px;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: pink;
+    color: #242635;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.nav li {
+    display: inline-block;
+    margin-right: 3px; 
+}
+  
+.nav a {
+    text-decoration: none;
+    padding: 5px 5px; /* Añade un relleno para mejorar la apariencia */
+    border: 1px solid #ccc; /* Añade un borde para distinguir los elementos */
+}
+  
+
+.main-section{
+    width: 1300px;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: palegoldenrod;
+}
+
+.main{
+    width: 416px;
+    height: 246px;
+    background-color: pink;
+    font-size: 22px;
+    font-family: "Source Sans 3", sans-serif;
+    margin-top: 192px;
+}
+
+.img{
+    width: 576px;
+    height: 648px;
+    margin-left: 30px;
+    margin-right: 120px;
+    object-fit: cover;
+    
+}
