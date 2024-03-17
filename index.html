@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" href="./style/index.css">
     <title>Recipes</title>
@@ -19,18 +22,22 @@
 
         <header class="header">
 
-             <div class="logo">
+            <div class="logo">
                 <p>Head.</p>
-             </div>
+            </div>
 
-             <nav class="nav">
+            <nav class="nav" id="mynav">
                 <ul>
-                    <li><a href="#">Works</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <a href="#">Works</a>
+                    <a href="#">Service</a>
+                    <a href="#">Contact</a>
                 </ul>
-                
+
             </nav>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
 
         </header>
 
@@ -38,16 +45,18 @@
 
             <section class="main">
                 <h1 class="Title">Recipes</h1>
-                <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
+                <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae
+                    ullamcor.</p>
             </section>
 
-            <div class="img">
+            <div>
                 <img src="./images/Soup.png" alt="Soup">
             </div>
-        </div> <!-----the end of main-section------->    
+        </div> <!-----the end of main-section------->
 
     </div> <!-----the end of container------->
 
-    
+
 </body>
+
 </html>
