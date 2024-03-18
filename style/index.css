@@ -89,6 +89,7 @@ header {
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 20px;
 
 }
 
@@ -102,6 +103,8 @@ header {
 
 img {
     display: block;
+    position: relative;
+    right: 60px;
 
 }
 
